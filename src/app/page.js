@@ -1,27 +1,19 @@
 import Image from "next/image";
 import Myprojects from "./Myprojects";
-import Head from "next/head";
+
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-      </Head>
+      
       <div className="container">
         <div className="col1">
           <div className="bio">
             <h1>Biyografi</h1>
             <p>
-              Akdeniz Üniversitesi Tıp Fakültesi'nden 2019 yılında mezun oldum.
+              Akdeniz Üniversitesi Tıp Fakültesi nden 2019 yılında mezun oldum.
               <br /> 4 yıl pratisyen hekim olarak çalıştıktan sonra 2024 yılında
-              Şişli Hamidiye Etfal Eğitim Araştırma Hastanesi'nde Aile Hekimliği
+              Şişli Hamidiye Etfal Eğitim Araştırma Hastanesi nde Aile Hekimliği
               ihtisasına başladım. Lise yıllarında kendi kendime öğrenmeye
               çalıştığım web geliştirme konusuna uzunca bir süreden sonra tekrar
               ilgi duymaya başladım.Şu an kendimi Frontend Web teknolojileri
